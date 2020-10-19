@@ -1,0 +1,32 @@
+{
+  "name": "FixerWebsite",
+  "private": true,
+  "dependencies": {
+    "@babel/preset-react": "^7.12.1",
+    "@mdi/font": "^5.7.55",
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "4.3.0",
+    "availity-reactstrap-validation": "^2.6.1",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "bootstrap": "^4.5.0",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-modal-video": "^1.2.6",
+    "react-particles-js": "^3.3.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-sticky-header": "^0.2.0",
+    "react-text-rotator": "^0.1.1",
+    "reactstrap": "^8.5.1",
+    "turbolinks": "^5.2.0"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.0"
+  }
+}

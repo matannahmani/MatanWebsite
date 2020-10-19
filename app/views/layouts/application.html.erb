@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FixerWebsite</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <!-- <link href="/assets/application.css?body=1" media="screen" rel="stylesheet" /> -->
+    <link id="colorTheme" href="/assets/colors/yellow.css?body=1" media="screen" rel="stylesheet" />
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+    <div id="root"></div>
+    <%= javascript_pack_tag 'hello_react' %>
+
+  </body>
+</html>
